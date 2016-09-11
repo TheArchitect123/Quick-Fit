@@ -1,0 +1,402 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		37E5DAEC1D82ED2200D708FF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37E5DAEB1D82ED2200D708FF /* AppDelegate.swift */; };
+		37E5DAF11D82ED2200D708FF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37E5DAEF1D82ED2200D708FF /* Main.storyboard */; };
+		37E5DAF41D82ED2200D708FF /* Quick_Fit.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 37E5DAF21D82ED2200D708FF /* Quick_Fit.xcdatamodeld */; };
+		37E5DAF61D82ED2200D708FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37E5DAF51D82ED2200D708FF /* Assets.xcassets */; };
+		37E5DAF91D82ED2200D708FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37E5DAF71D82ED2200D708FF /* LaunchScreen.storyboard */; };
+		37E5DB011D82F01A00D708FF /* MusicPlayerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37E5DB001D82F01A00D708FF /* MusicPlayerController.swift */; };
+		37E5DB031D82F02A00D708FF /* PreviousResultsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37E5DB021D82F02A00D708FF /* PreviousResultsController.swift */; };
+		37E5DB051D82F05100D708FF /* TabMaster.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37E5DB041D82F05100D708FF /* TabMaster.swift */; };
+		37E5DB071D82F06600D708FF /* WorkoutController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37E5DB061D82F06600D708FF /* WorkoutController.swift */; };
+		37E5DB091D82F09000D708FF /* SettingsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37E5DB081D82F09000D708FF /* SettingsController.swift */; };
+		37E5DB0B1D82F09E00D708FF /* GraphicalResultsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37E5DB0A1D82F09E00D708FF /* GraphicalResultsController.swift */; };
+		37E5DB0F1D82F11500D708FF /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37E5DB0E1D82F11500D708FF /* Utilities.swift */; };
+		37E5DB111D82F14A00D708FF /* NavMaster.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37E5DB101D82F14A00D708FF /* NavMaster.swift */; };
+		37E5DB131D83E50100D708FF /* StartWorkoutUnSelected.png in Resources */ = {isa = PBXBuildFile; fileRef = 37E5DB121D83E50100D708FF /* StartWorkoutUnSelected.png */; };
+		37E5DB171D83E8B400D708FF /* ResultsIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 37E5DB161D83E8B400D708FF /* ResultsIcon.png */; };
+		37E5DB191D83EA9200D708FF /* MusicPlayer.png in Resources */ = {isa = PBXBuildFile; fileRef = 37E5DB181D83EA9200D708FF /* MusicPlayer.png */; };
+		37E5DB1B1D83EB6200D708FF /* PreviousWorkouts.png in Resources */ = {isa = PBXBuildFile; fileRef = 37E5DB1A1D83EB6200D708FF /* PreviousWorkouts.png */; };
+		37E5DB1F1D83EBF900D708FF /* Settings.png in Resources */ = {isa = PBXBuildFile; fileRef = 37E5DB1E1D83EBF900D708FF /* Settings.png */; };
+		37E5DB4B1D85282A00D708FF /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37E5DB4A1D85282A00D708FF /* MapKit.framework */; };
+		37E5DB4E1D85286600D708FF /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37E5DB4D1D85286600D708FF /* HealthKit.framework */; };
+		37E5DB501D85287500D708FF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37E5DB4F1D85287500D708FF /* UIKit.framework */; };
+		37E5DB521D85288100D708FF /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37E5DB511D85288100D708FF /* CoreLocation.framework */; };
+		37E5DB541D85289300D708FF /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37E5DB531D85289300D708FF /* AudioToolbox.framework */; };
+		37E5DB561D85289800D708FF /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37E5DB551D85289800D708FF /* MediaPlayer.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		37E5DAE81D82ED2200D708FF /* Quick&Fit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Quick&Fit.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		37E5DAEB1D82ED2200D708FF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		37E5DAF01D82ED2200D708FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		37E5DAF31D82ED2200D708FF /* Quick_Fit.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Quick_Fit.xcdatamodel; sourceTree = "<group>"; };
+		37E5DAF51D82ED2200D708FF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		37E5DAF81D82ED2200D708FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		37E5DAFA1D82ED2200D708FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		37E5DB001D82F01A00D708FF /* MusicPlayerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusicPlayerController.swift; sourceTree = "<group>"; };
+		37E5DB021D82F02A00D708FF /* PreviousResultsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PreviousResultsController.swift; sourceTree = "<group>"; };
+		37E5DB041D82F05100D708FF /* TabMaster.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabMaster.swift; sourceTree = "<group>"; };
+		37E5DB061D82F06600D708FF /* WorkoutController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorkoutController.swift; sourceTree = "<group>"; };
+		37E5DB081D82F09000D708FF /* SettingsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsController.swift; sourceTree = "<group>"; };
+		37E5DB0A1D82F09E00D708FF /* GraphicalResultsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GraphicalResultsController.swift; sourceTree = "<group>"; };
+		37E5DB0E1D82F11500D708FF /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		37E5DB101D82F14A00D708FF /* NavMaster.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavMaster.swift; sourceTree = "<group>"; };
+		37E5DB121D83E50100D708FF /* StartWorkoutUnSelected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = StartWorkoutUnSelected.png; sourceTree = "<group>"; };
+		37E5DB161D83E8B400D708FF /* ResultsIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ResultsIcon.png; sourceTree = "<group>"; };
+		37E5DB181D83EA9200D708FF /* MusicPlayer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MusicPlayer.png; sourceTree = "<group>"; };
+		37E5DB1A1D83EB6200D708FF /* PreviousWorkouts.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PreviousWorkouts.png; sourceTree = "<group>"; };
+		37E5DB1E1D83EBF900D708FF /* Settings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Settings.png; sourceTree = "<group>"; };
+		37E5DB4A1D85282A00D708FF /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		37E5DB4C1D85286600D708FF /* Quick&Fit.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "Quick&Fit.entitlements"; sourceTree = "<group>"; };
+		37E5DB4D1D85286600D708FF /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = System/Library/Frameworks/HealthKit.framework; sourceTree = SDKROOT; };
+		37E5DB4F1D85287500D708FF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		37E5DB511D85288100D708FF /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		37E5DB531D85289300D708FF /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		37E5DB551D85289800D708FF /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		37E5DAE51D82ED2200D708FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37E5DB561D85289800D708FF /* MediaPlayer.framework in Frameworks */,
+				37E5DB541D85289300D708FF /* AudioToolbox.framework in Frameworks */,
+				37E5DB521D85288100D708FF /* CoreLocation.framework in Frameworks */,
+				37E5DB4B1D85282A00D708FF /* MapKit.framework in Frameworks */,
+				37E5DB501D85287500D708FF /* UIKit.framework in Frameworks */,
+				37E5DB4E1D85286600D708FF /* HealthKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		37E5DADF1D82ED2200D708FF = {
+			isa = PBXGroup;
+			children = (
+				37E5DB551D85289800D708FF /* MediaPlayer.framework */,
+				37E5DB531D85289300D708FF /* AudioToolbox.framework */,
+				37E5DB511D85288100D708FF /* CoreLocation.framework */,
+				37E5DB4F1D85287500D708FF /* UIKit.framework */,
+				37E5DB4D1D85286600D708FF /* HealthKit.framework */,
+				37E5DB4A1D85282A00D708FF /* MapKit.framework */,
+				37E5DAEA1D82ED2200D708FF /* Quick&Fit */,
+				37E5DAE91D82ED2200D708FF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		37E5DAE91D82ED2200D708FF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				37E5DAE81D82ED2200D708FF /* Quick&Fit.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		37E5DAEA1D82ED2200D708FF /* Quick&Fit */ = {
+			isa = PBXGroup;
+			children = (
+				37E5DB4C1D85286600D708FF /* Quick&Fit.entitlements */,
+				37E5DAEB1D82ED2200D708FF /* AppDelegate.swift */,
+				37E5DAEF1D82ED2200D708FF /* Main.storyboard */,
+				37E5DB101D82F14A00D708FF /* NavMaster.swift */,
+				37E5DB161D83E8B400D708FF /* ResultsIcon.png */,
+				37E5DB181D83EA9200D708FF /* MusicPlayer.png */,
+				37E5DB1A1D83EB6200D708FF /* PreviousWorkouts.png */,
+				37E5DB1E1D83EBF900D708FF /* Settings.png */,
+				37E5DB121D83E50100D708FF /* StartWorkoutUnSelected.png */,
+				37E5DB0E1D82F11500D708FF /* Utilities.swift */,
+				37E5DB0A1D82F09E00D708FF /* GraphicalResultsController.swift */,
+				37E5DB081D82F09000D708FF /* SettingsController.swift */,
+				37E5DB061D82F06600D708FF /* WorkoutController.swift */,
+				37E5DB041D82F05100D708FF /* TabMaster.swift */,
+				37E5DB021D82F02A00D708FF /* PreviousResultsController.swift */,
+				37E5DB001D82F01A00D708FF /* MusicPlayerController.swift */,
+				37E5DAF51D82ED2200D708FF /* Assets.xcassets */,
+				37E5DAF71D82ED2200D708FF /* LaunchScreen.storyboard */,
+				37E5DAFA1D82ED2200D708FF /* Info.plist */,
+				37E5DAF21D82ED2200D708FF /* Quick_Fit.xcdatamodeld */,
+			);
+			path = "Quick&Fit";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		37E5DAE71D82ED2200D708FF /* Quick&Fit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 37E5DAFD1D82ED2200D708FF /* Build configuration list for PBXNativeTarget "Quick&Fit" */;
+			buildPhases = (
+				37E5DAE41D82ED2200D708FF /* Sources */,
+				37E5DAE51D82ED2200D708FF /* Frameworks */,
+				37E5DAE61D82ED2200D708FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Quick&Fit";
+			productName = "Quick&Fit";
+			productReference = 37E5DAE81D82ED2200D708FF /* Quick&Fit.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		37E5DAE01D82ED2200D708FF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Dan Gerchcovich";
+				TargetAttributes = {
+					37E5DAE71D82ED2200D708FF = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = SYZZCVD6PU;
+						SystemCapabilities = {
+							com.apple.HealthKit = {
+								enabled = 1;
+							};
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 37E5DAE31D82ED2200D708FF /* Build configuration list for PBXProject "Quick&Fit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 37E5DADF1D82ED2200D708FF;
+			productRefGroup = 37E5DAE91D82ED2200D708FF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				37E5DAE71D82ED2200D708FF /* Quick&Fit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		37E5DAE61D82ED2200D708FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37E5DAF91D82ED2200D708FF /* LaunchScreen.storyboard in Resources */,
+				37E5DAF61D82ED2200D708FF /* Assets.xcassets in Resources */,
+				37E5DB1B1D83EB6200D708FF /* PreviousWorkouts.png in Resources */,
+				37E5DB131D83E50100D708FF /* StartWorkoutUnSelected.png in Resources */,
+				37E5DB171D83E8B400D708FF /* ResultsIcon.png in Resources */,
+				37E5DB1F1D83EBF900D708FF /* Settings.png in Resources */,
+				37E5DB191D83EA9200D708FF /* MusicPlayer.png in Resources */,
+				37E5DAF11D82ED2200D708FF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		37E5DAE41D82ED2200D708FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37E5DB091D82F09000D708FF /* SettingsController.swift in Sources */,
+				37E5DB031D82F02A00D708FF /* PreviousResultsController.swift in Sources */,
+				37E5DB0F1D82F11500D708FF /* Utilities.swift in Sources */,
+				37E5DB051D82F05100D708FF /* TabMaster.swift in Sources */,
+				37E5DB011D82F01A00D708FF /* MusicPlayerController.swift in Sources */,
+				37E5DAF41D82ED2200D708FF /* Quick_Fit.xcdatamodeld in Sources */,
+				37E5DB071D82F06600D708FF /* WorkoutController.swift in Sources */,
+				37E5DB111D82F14A00D708FF /* NavMaster.swift in Sources */,
+				37E5DAEC1D82ED2200D708FF /* AppDelegate.swift in Sources */,
+				37E5DB0B1D82F09E00D708FF /* GraphicalResultsController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		37E5DAEF1D82ED2200D708FF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				37E5DAF01D82ED2200D708FF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		37E5DAF71D82ED2200D708FF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				37E5DAF81D82ED2200D708FF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		37E5DAFB1D82ED2200D708FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		37E5DAFC1D82ED2200D708FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		37E5DAFE1D82ED2200D708FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Quick&Fit/Quick&Fit.entitlements";
+				INFOPLIST_FILE = "Quick&Fit/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Dan.Quick-Fit";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		37E5DAFF1D82ED2200D708FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Quick&Fit/Quick&Fit.entitlements";
+				INFOPLIST_FILE = "Quick&Fit/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Dan.Quick-Fit";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		37E5DAE31D82ED2200D708FF /* Build configuration list for PBXProject "Quick&Fit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37E5DAFB1D82ED2200D708FF /* Debug */,
+				37E5DAFC1D82ED2200D708FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		37E5DAFD1D82ED2200D708FF /* Build configuration list for PBXNativeTarget "Quick&Fit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37E5DAFE1D82ED2200D708FF /* Debug */,
+				37E5DAFF1D82ED2200D708FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		37E5DAF21D82ED2200D708FF /* Quick_Fit.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				37E5DAF31D82ED2200D708FF /* Quick_Fit.xcdatamodel */,
+			);
+			currentVersion = 37E5DAF31D82ED2200D708FF /* Quick_Fit.xcdatamodel */;
+			path = Quick_Fit.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 37E5DAE01D82ED2200D708FF /* Project object */;
+}
